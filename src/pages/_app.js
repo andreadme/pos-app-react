@@ -11,9 +11,7 @@ const App = () => {
   return (
     <>
       <Routes> 
-          <Route path ="/dashboard" element= {<Dashboard />}/>
-
-          {/* <Route path ="/*" element= {<NotFound />}/>  */}
+          <Route path ="/" element= {<Dashboard />}/>
       </Routes> 
     </>
   )
